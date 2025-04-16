@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+*.sqlite3
+.env
+.venv/
+*.env
+
+# FastAPI specific
+instance/
+*.db
+
+# VSCode
+.vscode/
+
+# Node / React / Frontend
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/frontend/build
+/frontend/dist
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Optional - if you're using PyInstaller
+*.spec
+
+# Optional - coverage / testing
+htmlcov/
+.tox/
+.coverage
+.cache/
+.pytest_cache/
+
+# Ignore example PDFs if they're just sample data
+/example_pdfs/
+
+# Ignore compiled files from your llama_demo.py (if any)
+*.pyo
