@@ -1,47 +1,78 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg
-*.egg-info/
+# Dependency directories
+node_modules/
+**/node_modules/
+.venv/
+venv/
+*/venv/
+
+# Distribution directories
 dist/
 build/
-*.log
-*.sqlite3
+*/dist/
+
+# Environment files
 .env
-.venv/
-*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.pyenv
 
-# FastAPI specific
-instance/
-*.db
+# Cache directories
+.cache/
+**/.cache/
+.CACHEDIR.TAG
+__pycache__/
+**/__pycache__/
 
-# VSCode
-.vscode/
-
-# Node / React / Frontend
-node_modules/
+# Log files
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/frontend/build
-/frontend/dist
+*.log
 
-# OS
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
 .DS_Store
 Thumbs.db
 
-# Optional - if you're using PyInstaller
-*.spec
-
-# Optional - coverage / testing
+# Python specific
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+.coverage
 htmlcov/
 .tox/
-.coverage
-.cache/
-.pytest_cache/
+.nox/
 
-# Ignore example PDFs if they're just sample data
-/example_pdfs/
+# Backend specific
+**/lock
 
-# Ignore compiled files from your llama_demo.py (if any)
-*.pyo
+# Frontend specific
+.pnp
+.pnp.js
+coverage/
+
+# Local Netlify folder
+.netlify
+
+# Server
+**/bin/
+**/lib/
+**/share/
+llama-app-server/
+
+# Miscellaneous
+.lock
+
+bashcommands.txt

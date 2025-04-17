@@ -1,0 +1,17 @@
+{
+  "name": "llama",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "dev": "npm run build && npm run electron",
+    "build": "cd frontend && npm install && npm run build",
+    "electron": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "React + FastAPI Desktop App using Electron",
+  "devDependencies": {
+    "electron": "^35.1.5"
+  }
+}
