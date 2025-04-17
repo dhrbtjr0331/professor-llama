@@ -68,7 +68,15 @@ function startBackend() {
 // Start Llama Stack Server 
 function startLlamaServer() {
   console.log("Starting Llama Stack Server...");
-  const env = { ...process.env, INFERENCE_MODEL: "llama3.2:3b" };
+  
+  // Add SSL certificate configuration to environment
+  const env = { 
+    ...process.env, 
+    INFERENCE_MODEL: "llama3.2:3b",
+    // Add these SSL environment variables
+    SSL_CERT_FILE: "/etc/ssl/cert.pem", // Common macOS location
+    NODE_TLS_REJECT_UNAUTHORIZED: "1"   // Ensure SSL verification is on
+  };
 
   llamaProcess = spawn(
     "llama",

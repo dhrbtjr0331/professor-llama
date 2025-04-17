@@ -270,7 +270,7 @@ export default function ChatPage() {
                   flex: 1,
                   color: '#666'
                 }}>
-                  Claude is thinking...
+                  Professor LLaMA is thinking...
                 </div>
               </div>
             )}

@@ -70,7 +70,6 @@ coverage/
 **/bin/
 **/lib/
 **/share/
-llama-app-server/
 
 # Miscellaneous
 .lock
