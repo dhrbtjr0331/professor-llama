@@ -50,7 +50,8 @@ brew install cmake pkg-config sentencepiece
 # If downloaded as ZIP, extract the file
 
 # Navigate to the project directory
-cd professor-llama
+#Likely under Downloads directory
+cd professor-llama-main 
 
 # Install Node.js dependencies
 npm install
