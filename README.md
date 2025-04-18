@@ -2,7 +2,7 @@
 
 A fully-featured offline AI assistant powered by Meta's LLaMA 3 models. Professor Llama runs locally on your device using Llama Stack, Ollama, and a FastAPI backend, providing an interactive AI experience without requiring constant internet connectivity.
 
-## Demo
+## Demo (Click the image below to watch the video!)
 
 [![Demo](https://img.youtube.com/vi/ShVB6xLYekc/0.jpg)](https://www.youtube.com/watch?v=ShVB6xLYekc)
 
@@ -69,6 +69,6 @@ pip install -r ./backend/requirements.txt
 npm run dev
 ```
 
-The application window should appear, providing access to the Professor Llama interface.
+The application window should appear, providing access to the Professor Llama interface. Refer to the demo video at the top on how to use the application.
 
 
