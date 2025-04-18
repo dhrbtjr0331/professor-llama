@@ -4,7 +4,7 @@ A fully-featured offline AI assistant powered by Meta's LLaMA 3 models. Professo
 
 ## Demo
 
-[!(https://img.youtube.com/vi/ShVB6xLYekc/0.jpg)](https://www.youtube.com/watch?v=ShVB6xLYekc)
+[(https://img.youtube.com/vi/ShVB6xLYekc/0.jpg)](https://www.youtube.com/watch?v=ShVB6xLYekc)
 
 ## Features
 
