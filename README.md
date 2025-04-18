@@ -1,4 +1,4 @@
-# Professor Llama
+# Professor Llama 🦙
 
 A fully-featured offline AI assistant powered by Meta's LLaMA 3 models. Professor Llama runs locally on your device using Llama Stack, Ollama, and a FastAPI backend, providing an interactive AI experience without requiring constant internet connectivity.
 
